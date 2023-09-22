@@ -800,6 +800,14 @@
         "documentation": {}
     },
     {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
         "label": "login",
         "kind": 2,
         "importPath": "auth.authentication",
@@ -1191,7 +1199,7 @@
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def root():\n    return \"Hello World\"\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')",
+        "peekOfCode": "def root():\n    return \"Hello World\"\norigins = [\n    'http://localhost:3000'\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=['*'],",
         "detail": "main",
         "documentation": {}
     },
@@ -1200,7 +1208,16 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(authentication.router)\napp.include_router(comment.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')",
+        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(authentication.router)\napp.include_router(comment.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\norigins = [\n    'http://localhost:3000'",
+        "detail": "main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "origins = [\n    'http://localhost:3000'\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=['*'],\n    allow_headers=['*']\n)",
         "detail": "main",
         "documentation": {}
     }
