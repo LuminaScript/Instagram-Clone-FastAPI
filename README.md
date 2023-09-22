@@ -29,4 +29,9 @@ uvicorn main:app --reload
 
 This project, built using a full-stack approach with Python FastAPI, SQLAlchemy, and SQLite, offers comprehensive functionality for uploading, managing, and posting content to Instagram.
 
+### Authentictaion
+
+### Database
+
+### Routine
 
