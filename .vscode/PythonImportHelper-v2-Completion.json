@@ -113,6 +113,22 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -201,6 +217,14 @@
         "documentation": {}
     },
     {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
         "label": "engine",
         "importPath": "db.database",
         "description": "db.database",
@@ -234,7 +258,23 @@
         "documentation": {}
     },
     {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
         "isExtraImport": true,
@@ -299,6 +339,14 @@
     },
     {
         "label": "DbUser",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbComment",
         "importPath": "db.models",
         "description": "db.models",
         "isExtraImport": true,
@@ -338,6 +386,14 @@
         "documentation": {}
     },
     {
+        "label": "get_current_user",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
         "label": "OAuth2PasswordBearer",
         "importPath": "fastapi.security",
         "description": "fastapi.security",
@@ -347,6 +403,14 @@
     },
     {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -395,6 +459,14 @@
         "documentation": {}
     },
     {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "importPath": "jose",
         "description": "jose",
@@ -412,6 +484,14 @@
     },
     {
         "label": "db_user",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_comment",
         "importPath": "db",
         "description": "db",
         "isExtraImport": true,
@@ -500,6 +580,14 @@
         "documentation": {}
     },
     {
+        "label": "CommentBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
         "label": "PostBase",
         "importPath": "routers.schemas",
         "description": "routers.schemas",
@@ -509,6 +597,22 @@
     },
     {
         "label": "UserBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
         "importPath": "routers.schemas",
         "description": "routers.schemas",
         "isExtraImport": true,
@@ -572,11 +676,36 @@
         "documentation": {}
     },
     {
+        "label": "pydantic",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
         "label": "ForeignKey",
         "importPath": "sqlalchemy.sql.schema",
         "description": "sqlalchemy.sql.schema",
         "isExtraImport": true,
         "detail": "sqlalchemy.sql.schema",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "importPath": "db.db_comment",
+        "description": "db.db_comment",
+        "isExtraImport": true,
+        "detail": "db.db_comment",
         "documentation": {}
     },
     {
@@ -615,11 +744,19 @@
         "documentation": {}
     },
     {
-        "label": "BaseModel",
-        "importPath": "pydantic",
-        "description": "pydantic",
+        "label": "user",
+        "importPath": "routers",
+        "description": "routers",
         "isExtraImport": true,
-        "detail": "pydantic",
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
         "documentation": {}
     },
     {
@@ -632,6 +769,14 @@
     },
     {
         "label": "post",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "comment",
         "importPath": "routers",
         "description": "routers",
         "isExtraImport": true,
@@ -765,6 +910,24 @@
     {
         "label": "create",
         "kind": 2,
+        "importPath": "db.db_comment",
+        "description": "db.db_comment",
+        "peekOfCode": "def create(db: Session, request: CommentBase):\n        new_comment = DbComment(\n                text = request.text,\n                username = request.username,\n                post_id  = request.post_id,\n                timestamp = datetime.now()\n        )\n        db.add(new_comment)\n        db.commit()\n        db.refresh(new_comment)",
+        "detail": "db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "kind": 2,
+        "importPath": "db.db_comment",
+        "description": "db.db_comment",
+        "peekOfCode": "def get_all(db: Session, post_id: int):\n        return db.query(DbComment).filter(DbComment.id == post_id).all()",
+        "detail": "db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
         "importPath": "db.db_post",
         "description": "db.db_post",
         "peekOfCode": "def create(db: Session, request: PostBase):\n        new_post = DbPost(\n                image_url = request.image_url,\n                image_url_type = request.image_url_type,\n                caption = request.caption,\n                timestamp = datetime.datetime.now(),\n                user_id = request.creator_id\n        )\n        db.add(new_post)\n        db.commit()",
@@ -839,8 +1002,44 @@
         "kind": 6,
         "importPath": "db.models",
         "description": "db.models",
-        "peekOfCode": "class DbPost(Base):\n        __tablename__ = 'post'\n        id = Column(Integer, primary_key=True, index=True)\n        image_url = Column(String)\n        image_url_type = Column(String)\n        caption = Column(String)\n        timestamp = Column(DateTime)\n        user_id = Column(Integer, ForeignKey('user.id'))\n        user = relationship('DbUser', back_populates='items')",
+        "peekOfCode": "class DbPost(Base):\n        __tablename__ = 'post'\n        id = Column(Integer, primary_key=True, index=True)\n        image_url = Column(String)\n        image_url_type = Column(String)\n        caption = Column(String)\n        timestamp = Column(DateTime)\n        user_id = Column(Integer, ForeignKey('user.id'))\n        user = relationship('DbUser', back_populates='items')\n        comments = relationship('DbComment', back_populates='post')",
         "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbComment",
+        "kind": 6,
+        "importPath": "db.models",
+        "description": "db.models",
+        "peekOfCode": "class DbComment(Base):\n        __tablename__ = 'comment'\n        id = Column(Integer, primary_key=True, index=True)\n        text = Column(String)\n        username = Column(String)\n        timestamp = Column(DateTime)\n        post_id = Column(Integer, ForeignKey('post.id'))\n        post = relationship(\"DbPost\", back_populates=\"comments\")",
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "comments",
+        "kind": 2,
+        "importPath": "routers.comment",
+        "description": "routers.comment",
+        "peekOfCode": "def comments(post_id: int, db: Session = Depends(get_db)):\n        return get_all(db, post_id)\n@router.post('')\ndef create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_comment.create(db, request)",
+        "detail": "routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "routers.comment",
+        "description": "routers.comment",
+        "peekOfCode": "def create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_comment.create(db, request)",
+        "detail": "routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "routers.comment",
+        "description": "routers.comment",
+        "peekOfCode": "router = APIRouter(\n        prefix='/comment',\n        tags=['comment']\n)\n@router.get('/all/{post_id}')\ndef comments(post_id: int, db: Session = Depends(get_db)):\n        return get_all(db, post_id)\n@router.post('')\ndef create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_comment.create(db, request)",
+        "detail": "routers.comment",
         "documentation": {}
     },
     {
@@ -929,7 +1128,7 @@
         "kind": 6,
         "importPath": "routers.schemas",
         "description": "routers.schemas",
-        "peekOfCode": "class UserAuth(BaseModel):\n        id: int\n        username: str\n        email: str\n# for PostDisplay\nclass User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\nclass PostDisplay(BaseModel):",
+        "peekOfCode": "class UserAuth(BaseModel):\n        id: int\n        username: str\n        email: str\n# for PostDisplay\nclass User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\n# for PostDisplay",
         "detail": "routers.schemas",
         "documentation": {}
     },
@@ -938,7 +1137,16 @@
         "kind": 6,
         "importPath": "routers.schemas",
         "description": "routers.schemas",
-        "peekOfCode": "class User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\nclass PostDisplay(BaseModel):\n        id: int\n        image_url: str\n        image_url_type: str\n        caption: str\n        timestamp: datetime",
+        "peekOfCode": "class User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\n# for PostDisplay\nclass Comment(BaseModel):\n        text: str\n        username: str\n        timestamp: datetime\n        class Config():",
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "peekOfCode": "class Comment(BaseModel):\n        text: str\n        username: str\n        timestamp: datetime\n        class Config():\n                orm_mode = True\nclass PostDisplay(BaseModel):\n        id: int\n        image_url: str\n        image_url_type: str",
         "detail": "routers.schemas",
         "documentation": {}
     },
@@ -947,7 +1155,16 @@
         "kind": 6,
         "importPath": "routers.schemas",
         "description": "routers.schemas",
-        "peekOfCode": "class PostDisplay(BaseModel):\n        id: int\n        image_url: str\n        image_url_type: str\n        caption: str\n        timestamp: datetime\n        user: User\n        class Config():\n                orm_mode = True",
+        "peekOfCode": "class PostDisplay(BaseModel):\n        id: int\n        image_url: str\n        image_url_type: str\n        caption: str\n        timestamp: datetime\n        user: User\n        comments: List[Comment]\n        class Config():\n                orm_mode = True",
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "kind": 6,
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "peekOfCode": "class CommentBase(BaseModel):\n        username: str\n        text: str\n        post_id: int",
         "detail": "routers.schemas",
         "documentation": {}
     },
@@ -983,7 +1200,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(authentication.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')",
+        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(authentication.router)\napp.include_router(comment.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')",
         "detail": "main",
         "documentation": {}
     }
