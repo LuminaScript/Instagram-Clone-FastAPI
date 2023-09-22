@@ -1,3 +1,4 @@
+# Instagram-Clone-FastAPI: Backend in FastAPI & SQLAlchemy
 ## Intro.
 **Prerequisites:** Before you begin, make sure you have FastAPI installed. You can install it using pip with the following command:
 ```bash
