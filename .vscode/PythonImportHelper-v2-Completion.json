@@ -9,7 +9,31 @@
         "documentation": {}
     },
     {
-        "label": "APIR",
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
         "importPath": "fastapi",
         "description": "fastapi",
         "isExtraImport": true,
@@ -137,11 +161,11 @@
         "documentation": {}
     },
     {
-        "label": "OAuth2PasswordRequest",
-        "importPath": "fastapi.param_fuctions",
-        "description": "fastapi.param_fuctions",
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security.oauth2",
+        "description": "fastapi.security.oauth2",
         "isExtraImport": true,
-        "detail": "fastapi.param_fuctions",
+        "detail": "fastapi.security.oauth2",
         "documentation": {}
     },
     {
@@ -226,6 +250,22 @@
         "documentation": {}
     },
     {
+        "label": "Hash",
+        "importPath": "db.hashing",
+        "description": "db.hashing",
+        "isExtraImport": true,
+        "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "db.hashing",
+        "description": "db.hashing",
+        "isExtraImport": true,
+        "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm.session",
         "description": "sqlalchemy.orm.session",
@@ -279,6 +319,22 @@
         "description": "db.models",
         "isExtraImport": true,
         "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
         "documentation": {}
     },
     {
@@ -387,6 +443,15 @@
         "documentation": {}
     },
     {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "create_engine",
         "importPath": "sqlalchemy",
         "description": "sqlalchemy",
@@ -467,6 +532,22 @@
         "documentation": {}
     },
     {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
         "label": "UserBase",
         "importPath": "routers.schemas",
         "description": "routers.schemas",
@@ -480,14 +561,6 @@
         "description": "routers.schemas",
         "isExtraImport": true,
         "detail": "routers.schemas",
-        "documentation": {}
-    },
-    {
-        "label": "Hash",
-        "importPath": "db.hashing",
-        "description": "db.hashing",
-        "isExtraImport": true,
-        "detail": "db.hashing",
         "documentation": {}
     },
     {
@@ -574,11 +647,19 @@
         "documentation": {}
     },
     {
+        "label": "authentication",
+        "importPath": "auth",
+        "description": "auth",
+        "isExtraImport": true,
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
         "label": "login",
         "kind": 2,
         "importPath": "auth.authentication",
         "description": "auth.authentication",
-        "peekOfCode": "def login(request: OAuth2PasswordRequest = Depends(), db: Session = Depends(get_db)):\n        user = db.query(DbUser).filter(DbUser.username == request.username).first()\n        if not user:\n                raise HTTPException()",
+        "peekOfCode": "def login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n        user = db.query(DbUser).filter(DbUser.username == request.username).first()\n        if not user:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail='Invalid credentials')\n        if not Hash.verify(user.password, request.password):\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail='Incorrect password')\n        access_token = create_access_token(data={'username': user.username})\n        return {",
         "detail": "auth.authentication",
         "documentation": {}
     },
@@ -587,7 +668,7 @@
         "kind": 5,
         "importPath": "auth.authentication",
         "description": "auth.authentication",
-        "peekOfCode": "router = APIRouter(\n        tags=['authentication']\n)\n@router.post('/login')\ndef login(request: OAuth2PasswordRequest = Depends(), db: Session = Depends(get_db)):\n        user = db.query(DbUser).filter(DbUser.username == request.username).first()\n        if not user:\n                raise HTTPException()",
+        "peekOfCode": "router = APIRouter(\n        tags=['authentication']\n)\n@router.post('/login')\ndef login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n        user = db.query(DbUser).filter(DbUser.username == request.username).first()\n        if not user:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail='Invalid credentials')\n        if not Hash.verify(user.password, request.password):",
         "detail": "auth.authentication",
         "documentation": {}
     },
@@ -695,7 +776,16 @@
         "kind": 2,
         "importPath": "db.db_post",
         "description": "db.db_post",
-        "peekOfCode": "def get_all(db: Session):\n        return db.query(DbPost).all()",
+        "peekOfCode": "def get_all(db: Session):\n        return db.query(DbPost).all()\ndef delete(db: Session, id: int, user_id: int):\n        post = db.query(DbPost).filter(DbPost.id == id).first()\n        if not post:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                detail=f'Post with id {id} not found')\n        if post.user_id != user_id:\n                raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,\n                detail='Only post creator can delete post')",
+        "detail": "db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "db.db_post",
+        "description": "db.db_post",
+        "peekOfCode": "def delete(db: Session, id: int, user_id: int):\n        post = db.query(DbPost).filter(DbPost.id == id).first()\n        if not post:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                detail=f'Post with id {id} not found')\n        if post.user_id != user_id:\n                raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,\n                detail='Only post creator can delete post')\n        db.delete(post)\n        db.commit()",
         "detail": "db.db_post",
         "documentation": {}
     },
@@ -758,7 +848,7 @@
         "kind": 2,
         "importPath": "routers.post",
         "description": "routers.post",
-        "peekOfCode": "def create(request: PostBase, db: Session = Depends(get_db)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")\n        return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...)):",
+        "peekOfCode": "def create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")\n        return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):",
         "detail": "routers.post",
         "documentation": {}
     },
@@ -767,7 +857,7 @@
         "kind": 2,
         "importPath": "routers.post",
         "description": "routers.post",
-        "peekOfCode": "def posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...)):\n        letters = string.ascii_letters\n        rand_str = ''.join(random.choice(letters) for i in range(6))\n        new = f'_{rand_str}.'\n        filename = new.join(image.filename.rsplit('.', 1))\n        path = f'images/{filename}'\n        with open(path, \"w+b\") as buffer:",
+        "peekOfCode": "def posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):\n        letters = string.ascii_letters\n        rand_str = ''.join(random.choice(letters) for i in range(6))\n        new = f'_{rand_str}.'\n        filename = new.join(image.filename.rsplit('.', 1))\n        path = f'images/{filename}'\n        with open(path, \"w+b\") as buffer:",
         "detail": "routers.post",
         "documentation": {}
     },
@@ -776,7 +866,16 @@
         "kind": 2,
         "importPath": "routers.post",
         "description": "routers.post",
-        "peekOfCode": "def upload_image(image: UploadFile = File(...)):\n        letters = string.ascii_letters\n        rand_str = ''.join(random.choice(letters) for i in range(6))\n        new = f'_{rand_str}.'\n        filename = new.join(image.filename.rsplit('.', 1))\n        path = f'images/{filename}'\n        with open(path, \"w+b\") as buffer:\n                shutil.copyfileobj(image.file, buffer)\n        return {'filename': path}",
+        "peekOfCode": "def upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):\n        letters = string.ascii_letters\n        rand_str = ''.join(random.choice(letters) for i in range(6))\n        new = f'_{rand_str}.'\n        filename = new.join(image.filename.rsplit('.', 1))\n        path = f'images/{filename}'\n        with open(path, \"w+b\") as buffer:\n                shutil.copyfileobj(image.file, buffer)\n        return {'filename': path}\n@router.post('/delete/{id}')",
+        "detail": "routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "routers.post",
+        "description": "routers.post",
+        "peekOfCode": "def delete(id: int, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_post.delete(db, id, current_user.id)",
         "detail": "routers.post",
         "documentation": {}
     },
@@ -785,7 +884,7 @@
         "kind": 5,
         "importPath": "routers.post",
         "description": "routers.post",
-        "peekOfCode": "router = APIRouter(\n        prefix = '/post',\n        tags=['post']\n)\nimage_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")",
+        "peekOfCode": "router = APIRouter(\n        prefix = '/post',\n        tags=['post']\n)\nimage_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")",
         "detail": "routers.post",
         "documentation": {}
     },
@@ -794,7 +893,7 @@
         "kind": 5,
         "importPath": "routers.post",
         "description": "routers.post",
-        "peekOfCode": "image_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")\n        return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)",
+        "peekOfCode": "image_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")\n        return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)",
         "detail": "routers.post",
         "documentation": {}
     },
@@ -821,7 +920,16 @@
         "kind": 6,
         "importPath": "routers.schemas",
         "description": "routers.schemas",
-        "peekOfCode": "class PostBase(BaseModel):\n        image_url: str\n        image_url_type: str\n        caption: str\n        creator_id: int\n# for PostDisplay\nclass User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True",
+        "peekOfCode": "class PostBase(BaseModel):\n        image_url: str\n        image_url_type: str\n        caption: str\n        creator_id: int\nclass UserAuth(BaseModel):\n        id: int\n        username: str\n        email: str\n# for PostDisplay",
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "kind": 6,
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "peekOfCode": "class UserAuth(BaseModel):\n        id: int\n        username: str\n        email: str\n# for PostDisplay\nclass User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\nclass PostDisplay(BaseModel):",
         "detail": "routers.schemas",
         "documentation": {}
     },
@@ -875,7 +983,7 @@
         "kind": 5,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')",
+        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(authentication.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\nmodels.Base.metadata.create_all(engine)\napp.mount('/images', StaticFiles(directory='images'), name='images')",
         "detail": "main",
         "documentation": {}
     }
