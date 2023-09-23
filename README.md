@@ -35,7 +35,7 @@ This FastAPI project includes three database models: DbUser represents user data
 ### Routine
 These routers collectively form the backbone of the Instagram clone application, providing essential functionalities related to user interactions, post management, and comments.
 
-- **Comment Router (/comment)**: This router is responsible for managing comments on posts. It allows users to retrieve all comments for a specific post (GET /all/{post_id}) and create new comments (POST /).
+- **Comment Router (```/comment)**: This router is responsible for managing comments on posts. It allows users to retrieve all comments for a specific post (GET /all/{post_id}) and create new comments (POST /).
 - **Post Router (/post)**: The Post router handles various aspects of posts in the application. It facilitates the creation of new posts with images, captions, and other details (POST /). Users can also retrieve all posts (GET /all) and upload images for their posts (POST /image). Additionally, it provides the functionality to delete a post by its ID (POST /delete/{id}).
 - **User Router (/user)**: This router is responsible for user-related operations. It enables user registration by allowing users to create a new account with a username, email, and password (POST /).
   
