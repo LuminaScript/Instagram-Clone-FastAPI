@@ -113,6 +113,174 @@
         "documentation": {}
     },
     {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "status",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "File",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "UploadFile",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Depends",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
         "label": "APIRouter",
         "importPath": "fastapi",
         "description": "fastapi",
@@ -185,6 +353,14 @@
         "documentation": {}
     },
     {
+        "label": "OAuth2PasswordRequestForm",
+        "importPath": "fastapi.security.oauth2",
+        "description": "fastapi.security.oauth2",
+        "isExtraImport": true,
+        "detail": "fastapi.security.oauth2",
+        "documentation": {}
+    },
+    {
         "label": "get_db",
         "importPath": "db.database",
         "description": "db.database",
@@ -194,6 +370,54 @@
     },
     {
         "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "importPath": "db.database",
+        "description": "db.database",
+        "isExtraImport": true,
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
         "importPath": "db.database",
         "description": "db.database",
         "isExtraImport": true,
@@ -282,6 +506,54 @@
         "documentation": {}
     },
     {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "relationship",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
         "label": "Session",
         "importPath": "sqlalchemy.orm",
         "description": "sqlalchemy.orm",
@@ -303,6 +575,54 @@
         "description": "db.hashing",
         "isExtraImport": true,
         "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "db.hashing",
+        "description": "db.hashing",
+        "isExtraImport": true,
+        "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "importPath": "db.hashing",
+        "description": "db.hashing",
+        "isExtraImport": true,
+        "detail": "db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
+        "documentation": {}
+    },
+    {
+        "label": "Session",
+        "importPath": "sqlalchemy.orm.session",
+        "description": "sqlalchemy.orm.session",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm.session",
         "documentation": {}
     },
     {
@@ -370,7 +690,63 @@
         "documentation": {}
     },
     {
+        "label": "DbUser",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbComment",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbPost",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "importPath": "db.models",
+        "description": "db.models",
+        "isExtraImport": true,
+        "detail": "db.models",
+        "documentation": {}
+    },
+    {
         "label": "create_access_token",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "importPath": "auth.oauth2",
+        "description": "auth.oauth2",
+        "isExtraImport": true,
+        "detail": "auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
         "importPath": "auth.oauth2",
         "description": "auth.oauth2",
         "isExtraImport": true,
@@ -402,7 +778,39 @@
         "documentation": {}
     },
     {
+        "label": "OAuth2PasswordBearer",
+        "importPath": "fastapi.security",
+        "description": "fastapi.security",
+        "isExtraImport": true,
+        "detail": "fastapi.security",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -467,6 +875,54 @@
         "documentation": {}
     },
     {
+        "label": "timedelta",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
+        "label": "JWTError",
+        "importPath": "jose",
+        "description": "jose",
+        "isExtraImport": true,
+        "detail": "jose",
+        "documentation": {}
+    },
+    {
         "label": "jwt",
         "importPath": "jose",
         "description": "jose",
@@ -484,6 +940,46 @@
     },
     {
         "label": "db_user",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_user",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_comment",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_post",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "db_user",
+        "importPath": "db",
+        "description": "db",
+        "isExtraImport": true,
+        "detail": "db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
         "importPath": "db",
         "description": "db",
         "isExtraImport": true,
@@ -572,11 +1068,83 @@
         "documentation": {}
     },
     {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
         "label": "declarative_base",
         "importPath": "sqlalchemy.ext.declarative",
         "description": "sqlalchemy.ext.declarative",
         "isExtraImport": true,
         "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "declarative_base",
+        "importPath": "sqlalchemy.ext.declarative",
+        "description": "sqlalchemy.ext.declarative",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.ext.declarative",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
         "documentation": {}
     },
     {
@@ -668,6 +1236,78 @@
         "documentation": {}
     },
     {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostDisplay",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "importPath": "routers.schemas",
+        "description": "routers.schemas",
+        "isExtraImport": true,
+        "detail": "routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CryptContext",
+        "importPath": "passlib.context",
+        "description": "passlib.context",
+        "isExtraImport": true,
+        "detail": "passlib.context",
+        "documentation": {}
+    },
+    {
         "label": "CryptContext",
         "importPath": "passlib.context",
         "description": "passlib.context",
@@ -693,6 +1333,22 @@
         "documentation": {}
     },
     {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "ForeignKey",
+        "importPath": "sqlalchemy.sql.schema",
+        "description": "sqlalchemy.sql.schema",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.sql.schema",
+        "documentation": {}
+    },
+    {
         "label": "ForeignKey",
         "importPath": "sqlalchemy.sql.schema",
         "description": "sqlalchemy.sql.schema",
@@ -706,6 +1362,22 @@
         "description": "db.db_comment",
         "isExtraImport": true,
         "detail": "db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "importPath": "db.db_comment",
+        "description": "db.db_comment",
+        "isExtraImport": true,
+        "detail": "db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi.exceptions",
+        "description": "fastapi.exceptions",
+        "isExtraImport": true,
+        "detail": "fastapi.exceptions",
         "documentation": {}
     },
     {
@@ -784,6 +1456,54 @@
         "documentation": {}
     },
     {
+        "label": "user",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "user",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "post",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "comment",
+        "importPath": "routers",
+        "description": "routers",
+        "isExtraImport": true,
+        "detail": "routers",
+        "documentation": {}
+    },
+    {
+        "label": "StaticFiles",
+        "importPath": "fastapi.staticfiles",
+        "description": "fastapi.staticfiles",
+        "isExtraImport": true,
+        "detail": "fastapi.staticfiles",
+        "documentation": {}
+    },
+    {
         "label": "StaticFiles",
         "importPath": "fastapi.staticfiles",
         "description": "fastapi.staticfiles",
@@ -797,6 +1517,22 @@
         "description": "auth",
         "isExtraImport": true,
         "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "authentication",
+        "importPath": "auth",
+        "description": "auth",
+        "isExtraImport": true,
+        "detail": "auth",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
         "documentation": {}
     },
     {
@@ -1021,6 +1757,420 @@
         "description": "db.models",
         "peekOfCode": "class DbComment(Base):\n        __tablename__ = 'comment'\n        id = Column(Integer, primary_key=True, index=True)\n        text = Column(String)\n        username = Column(String)\n        timestamp = Column(DateTime)\n        post_id = Column(Integer, ForeignKey('post.id'))\n        post = relationship(\"DbPost\", back_populates=\"comments\")",
         "detail": "db.models",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "fastapi_server.auth.authentication",
+        "description": "fastapi_server.auth.authentication",
+        "peekOfCode": "def login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n        user = db.query(DbUser).filter(DbUser.username == request.username).first()\n        if not user:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail='Invalid credentials')\n        if not Hash.verify(user.password, request.password):\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail='Incorrect password')\n        access_token = create_access_token(data={'username': user.username})\n        return {",
+        "detail": "fastapi_server.auth.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "fastapi_server.auth.authentication",
+        "description": "fastapi_server.auth.authentication",
+        "peekOfCode": "router = APIRouter(\n        tags=['authentication']\n)\n@router.post('/login')\ndef login(request: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):\n        user = db.query(DbUser).filter(DbUser.username == request.username).first()\n        if not user:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail='Invalid credentials')\n        if not Hash.verify(user.password, request.password):",
+        "detail": "fastapi_server.auth.authentication",
+        "documentation": {}
+    },
+    {
+        "label": "create_access_token",
+        "kind": 2,
+        "importPath": "fastapi_server.auth.oauth2",
+        "description": "fastapi_server.auth.oauth2",
+        "peekOfCode": "def create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})\n  encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n  return encoded_jwt\ndef get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):",
+        "detail": "fastapi_server.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_current_user",
+        "kind": 2,
+        "importPath": "fastapi_server.auth.oauth2",
+        "description": "fastapi_server.auth.oauth2",
+        "peekOfCode": "def get_current_user(token: str = Depends(oauth2_scheme), db: Session = Depends(get_db)):\n  credentials_exception = HTTPException(\n    status_code=status.HTTP_401_UNAUTHORIZED,\n    detail=\"Could not validate credentials\",\n    headers={\"WWW-Authenticate\": \"Bearer\"},\n  )\n  try:\n    payload = jwt.decode(token, SECRET_KEY, algorithms=[ALGORITHM])\n    username: str = payload.get(\"username\")\n    if username is None:",
+        "detail": "fastapi_server.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "oauth2_scheme",
+        "kind": 5,
+        "importPath": "fastapi_server.auth.oauth2",
+        "description": "fastapi_server.auth.oauth2",
+        "peekOfCode": "oauth2_scheme = OAuth2PasswordBearer(tokenUrl=\"login\")\nSECRET_KEY = 'e8188c31189da9a9f3e157912aee85b8a0e3a78a1de3cd26306a26636c93b1a4'\nALGORITHM = 'HS256'\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)",
+        "detail": "fastapi_server.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "fastapi_server.auth.oauth2",
+        "description": "fastapi_server.auth.oauth2",
+        "peekOfCode": "SECRET_KEY = 'e8188c31189da9a9f3e157912aee85b8a0e3a78a1de3cd26306a26636c93b1a4'\nALGORITHM = 'HS256'\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})",
+        "detail": "fastapi_server.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ALGORITHM",
+        "kind": 5,
+        "importPath": "fastapi_server.auth.oauth2",
+        "description": "fastapi_server.auth.oauth2",
+        "peekOfCode": "ALGORITHM = 'HS256'\nACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})\n  encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)",
+        "detail": "fastapi_server.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "ACCESS_TOKEN_EXPIRE_MINUTES",
+        "kind": 5,
+        "importPath": "fastapi_server.auth.oauth2",
+        "description": "fastapi_server.auth.oauth2",
+        "peekOfCode": "ACCESS_TOKEN_EXPIRE_MINUTES = 30\ndef create_access_token(data: dict, expires_delta: Optional[timedelta] = None):\n  to_encode = data.copy()\n  if expires_delta:\n    expire = datetime.utcnow() + expires_delta\n  else:\n    expire = datetime.utcnow() + timedelta(minutes=15)\n  to_encode.update({\"exp\": expire})\n  encoded_jwt = jwt.encode(to_encode, SECRET_KEY, algorithm=ALGORITHM)\n  return encoded_jwt",
+        "detail": "fastapi_server.auth.oauth2",
+        "documentation": {}
+    },
+    {
+        "label": "get_db",
+        "kind": 2,
+        "importPath": "fastapi_server.db.database",
+        "description": "fastapi_server.db.database",
+        "peekOfCode": "def get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "fastapi_server.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SQLALCHEMY_DATABASE_URL",
+        "kind": 5,
+        "importPath": "fastapi_server.db.database",
+        "description": "fastapi_server.db.database",
+        "peekOfCode": "SQLALCHEMY_DATABASE_URL = 'sqlite:///./ig_api.db' # create database\nengine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(bind=engine, autocommit=False,autoflush=False)\nBase=declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "fastapi_server.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "fastapi_server.db.database",
+        "description": "fastapi_server.db.database",
+        "peekOfCode": "engine = create_engine(SQLALCHEMY_DATABASE_URL, connect_args={\"check_same_thread\": False})\nSessionLocal = sessionmaker(bind=engine, autocommit=False,autoflush=False)\nBase=declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "fastapi_server.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "SessionLocal",
+        "kind": 5,
+        "importPath": "fastapi_server.db.database",
+        "description": "fastapi_server.db.database",
+        "peekOfCode": "SessionLocal = sessionmaker(bind=engine, autocommit=False,autoflush=False)\nBase=declarative_base()\ndef get_db():\n    db = SessionLocal()\n    try:\n        yield db\n    finally:\n        db.close()",
+        "detail": "fastapi_server.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_comment",
+        "description": "fastapi_server.db.db_comment",
+        "peekOfCode": "def create(db: Session, request: CommentBase):\n        new_comment = DbComment(\n                text = request.text,\n                username = request.username,\n                post_id  = request.post_id,\n                timestamp = datetime.now()\n        )\n        db.add(new_comment)\n        db.commit()\n        db.refresh(new_comment)",
+        "detail": "fastapi_server.db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_comment",
+        "description": "fastapi_server.db.db_comment",
+        "peekOfCode": "def get_all(db: Session, post_id: int):\n        return db.query(DbComment).filter(DbComment.id == post_id).all()",
+        "detail": "fastapi_server.db.db_comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_post",
+        "description": "fastapi_server.db.db_post",
+        "peekOfCode": "def create(db: Session, request: PostBase):\n        new_post = DbPost(\n                image_url = request.image_url,\n                image_url_type = request.image_url_type,\n                caption = request.caption,\n                timestamp = datetime.datetime.now(),\n                user_id = request.creator_id\n        )\n        db.add(new_post)\n        db.commit()",
+        "detail": "fastapi_server.db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "get_all",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_post",
+        "description": "fastapi_server.db.db_post",
+        "peekOfCode": "def get_all(db: Session):\n        return db.query(DbPost).all()\ndef delete(db: Session, id: int, user_id: int):\n        post = db.query(DbPost).filter(DbPost.id == id).first()\n        if not post:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                detail=f'Post with id {id} not found')\n        if post.user_id != user_id:\n                raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,\n                detail='Only post creator can delete post')",
+        "detail": "fastapi_server.db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_post",
+        "description": "fastapi_server.db.db_post",
+        "peekOfCode": "def delete(db: Session, id: int, user_id: int):\n        post = db.query(DbPost).filter(DbPost.id == id).first()\n        if not post:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, \n                detail=f'Post with id {id} not found')\n        if post.user_id != user_id:\n                raise HTTPException(status_code=status.HTTP_403_FORBIDDEN,\n                detail='Only post creator can delete post')\n        db.delete(post)\n        db.commit()",
+        "detail": "fastapi_server.db.db_post",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_user",
+        "description": "fastapi_server.db.db_user",
+        "peekOfCode": "def create_user(db: Session, request: UserBase):\n        new_user = DbUser(\n                username = request.username,\n                email = request.email,\n                password = Hash.bcrypt(request.password)\n        )\n        db.add(new_user)\n        db.commit()\n        db.refresh(new_user)\n        return new_user",
+        "detail": "fastapi_server.db.db_user",
+        "documentation": {}
+    },
+    {
+        "label": "get_user_by_username",
+        "kind": 2,
+        "importPath": "fastapi_server.db.db_user",
+        "description": "fastapi_server.db.db_user",
+        "peekOfCode": "def get_user_by_username(db: Session, username: str):\n        user = db.query(DbUser).filter(DbUser.username == username).first()\n        if not user:\n                raise HTTPException(status_code=status.HTTP_404_NOT_FOUND,\n                                    detail=f'User with username {username} not found')\n        return user",
+        "detail": "fastapi_server.db.db_user",
+        "documentation": {}
+    },
+    {
+        "label": "Hash",
+        "kind": 6,
+        "importPath": "fastapi_server.db.hashing",
+        "description": "fastapi_server.db.hashing",
+        "peekOfCode": "class Hash():\n        def bcrypt(password: str):\n                return pwd_cxt.hash(password)\n        def verify(hashed_password, plain_password):\n                return pwd_cxt.verify(plain_password, hashed_password)",
+        "detail": "fastapi_server.db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "pwd_cxt",
+        "kind": 5,
+        "importPath": "fastapi_server.db.hashing",
+        "description": "fastapi_server.db.hashing",
+        "peekOfCode": "pwd_cxt = CryptContext(schemes=['bcrypt'], deprecated='auto')\nclass Hash():\n        def bcrypt(password: str):\n                return pwd_cxt.hash(password)\n        def verify(hashed_password, plain_password):\n                return pwd_cxt.verify(plain_password, hashed_password)",
+        "detail": "fastapi_server.db.hashing",
+        "documentation": {}
+    },
+    {
+        "label": "DbUser",
+        "kind": 6,
+        "importPath": "fastapi_server.db.models",
+        "description": "fastapi_server.db.models",
+        "peekOfCode": "class DbUser(Base):\n        __tablename__ = 'user'\n        id = Column(Integer, primary_key=True, index=True)\n        username = Column(String)\n        email = Column(String)\n        password = Column(String)\n        items = relationship('DbPost', back_populates='user')\nclass DbPost(Base):\n        __tablename__ = 'post'\n        id = Column(Integer, primary_key=True, index=True)",
+        "detail": "fastapi_server.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbPost",
+        "kind": 6,
+        "importPath": "fastapi_server.db.models",
+        "description": "fastapi_server.db.models",
+        "peekOfCode": "class DbPost(Base):\n        __tablename__ = 'post'\n        id = Column(Integer, primary_key=True, index=True)\n        image_url = Column(String)\n        image_url_type = Column(String)\n        caption = Column(String)\n        timestamp = Column(DateTime)\n        user_id = Column(Integer, ForeignKey('user.id'))\n        user = relationship('DbUser', back_populates='items')\n        comments = relationship('DbComment', back_populates='post')",
+        "detail": "fastapi_server.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "DbComment",
+        "kind": 6,
+        "importPath": "fastapi_server.db.models",
+        "description": "fastapi_server.db.models",
+        "peekOfCode": "class DbComment(Base):\n        __tablename__ = 'comment'\n        id = Column(Integer, primary_key=True, index=True)\n        text = Column(String)\n        username = Column(String)\n        timestamp = Column(DateTime)\n        post_id = Column(Integer, ForeignKey('post.id'))\n        post = relationship(\"DbPost\", back_populates=\"comments\")",
+        "detail": "fastapi_server.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "comments",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.comment",
+        "description": "fastapi_server.routers.comment",
+        "peekOfCode": "def comments(post_id: int, db: Session = Depends(get_db)):\n        return get_all(db, post_id)\n@router.post('')\ndef create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_comment.create(db, request)",
+        "detail": "fastapi_server.routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.comment",
+        "description": "fastapi_server.routers.comment",
+        "peekOfCode": "def create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_comment.create(db, request)",
+        "detail": "fastapi_server.routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "fastapi_server.routers.comment",
+        "description": "fastapi_server.routers.comment",
+        "peekOfCode": "router = APIRouter(\n        prefix='/comment',\n        tags=['comment']\n)\n@router.get('/all/{post_id}')\ndef comments(post_id: int, db: Session = Depends(get_db)):\n        return get_all(db, post_id)\n@router.post('')\ndef create(request: CommentBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_comment.create(db, request)",
+        "detail": "fastapi_server.routers.comment",
+        "documentation": {}
+    },
+    {
+        "label": "create",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.post",
+        "description": "fastapi_server.routers.post",
+        "peekOfCode": "def create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")\n        return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):",
+        "detail": "fastapi_server.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "posts",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.post",
+        "description": "fastapi_server.routers.post",
+        "peekOfCode": "def posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)\n@router.post('/image')\ndef upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):\n        letters = string.ascii_letters\n        rand_str = ''.join(random.choice(letters) for i in range(6))\n        new = f'_{rand_str}.'\n        filename = new.join(image.filename.rsplit('.', 1))\n        path = f'images/{filename}'\n        with open(path, \"w+b\") as buffer:",
+        "detail": "fastapi_server.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "upload_image",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.post",
+        "description": "fastapi_server.routers.post",
+        "peekOfCode": "def upload_image(image: UploadFile = File(...), current_user: UserAuth = Depends(get_current_user)):\n        letters = string.ascii_letters\n        rand_str = ''.join(random.choice(letters) for i in range(6))\n        new = f'_{rand_str}.'\n        filename = new.join(image.filename.rsplit('.', 1))\n        path = f'images/{filename}'\n        with open(path, \"w+b\") as buffer:\n                shutil.copyfileobj(image.file, buffer)\n        return {'filename': path}\n@router.post('/delete/{id}')",
+        "detail": "fastapi_server.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.post",
+        "description": "fastapi_server.routers.post",
+        "peekOfCode": "def delete(id: int, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        return db_post.delete(db, id, current_user.id)",
+        "detail": "fastapi_server.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "fastapi_server.routers.post",
+        "description": "fastapi_server.routers.post",
+        "peekOfCode": "router = APIRouter(\n        prefix = '/post',\n        tags=['post']\n)\nimage_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")",
+        "detail": "fastapi_server.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "image_url_types",
+        "kind": 5,
+        "importPath": "fastapi_server.routers.post",
+        "description": "fastapi_server.routers.post",
+        "peekOfCode": "image_url_types = ['absolute', 'relative']\n@router.post('', response_model=PostDisplay)\ndef create(request: PostBase, db: Session = Depends(get_db), current_user: UserAuth = Depends(get_current_user)):\n        # raise exception\n        if not request.image_url_type in image_url_types:\n                raise HTTPException(status_code=status.HTTP_422_UNPROCESSABLE_ENTITY, detail=\"Parameter image_url_type can only take values 'absolute' or ;relative.\")\n        return db_post.create(db, request)\n@router.get('/all', response_model=List[PostDisplay])\ndef posts(db: Session = Depends(get_db)):\n        return db_post.get_all(db)",
+        "detail": "fastapi_server.routers.post",
+        "documentation": {}
+    },
+    {
+        "label": "UserBase",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class UserBase(BaseModel):\n        username: str \n        email: str\n        password: str\nclass UserDisplay(BaseModel):\n        username: str \n        email: str\n        class Config():\n                orm_mode = True\nclass PostBase(BaseModel):",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserDisplay",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class UserDisplay(BaseModel):\n        username: str \n        email: str\n        class Config():\n                orm_mode = True\nclass PostBase(BaseModel):\n        image_url: str\n        image_url_type: str\n        caption: str\n        creator_id: int",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostBase",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class PostBase(BaseModel):\n        image_url: str\n        image_url_type: str\n        caption: str\n        creator_id: int\nclass UserAuth(BaseModel):\n        id: int\n        username: str\n        email: str\n# for PostDisplay",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "UserAuth",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class UserAuth(BaseModel):\n        id: int\n        username: str\n        email: str\n# for PostDisplay\nclass User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\n# for PostDisplay",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class User(BaseModel):\n        username: str\n        class Config():\n                orm_mode = True\n# for PostDisplay\nclass Comment(BaseModel):\n        text: str\n        username: str\n        timestamp: datetime\n        class Config():",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "Comment",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class Comment(BaseModel):\n        text: str\n        username: str\n        timestamp: datetime\n        class Config():\n                orm_mode = True\nclass PostDisplay(BaseModel):\n        id: int\n        image_url: str\n        image_url_type: str",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "PostDisplay",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class PostDisplay(BaseModel):\n        id: int\n        image_url: str\n        image_url_type: str\n        caption: str\n        timestamp: datetime\n        user: User\n        comments: List[Comment]\n        class Config():\n                orm_mode = True",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "CommentBase",
+        "kind": 6,
+        "importPath": "fastapi_server.routers.schemas",
+        "description": "fastapi_server.routers.schemas",
+        "peekOfCode": "class CommentBase(BaseModel):\n        username: str\n        text: str\n        post_id: int",
+        "detail": "fastapi_server.routers.schemas",
+        "documentation": {}
+    },
+    {
+        "label": "create_user",
+        "kind": 2,
+        "importPath": "fastapi_server.routers.user",
+        "description": "fastapi_server.routers.user",
+        "peekOfCode": "def create_user(request: UserBase, db: Session = Depends(get_db)):\n  return db_user.create_user(db, request)",
+        "detail": "fastapi_server.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "fastapi_server.routers.user",
+        "description": "fastapi_server.routers.user",
+        "peekOfCode": "router = APIRouter(\n  prefix='/user',\n  tags=['user']\n)\n@router.post('', response_model=UserDisplay)\ndef create_user(request: UserBase, db: Session = Depends(get_db)):\n  return db_user.create_user(db, request)",
+        "detail": "fastapi_server.routers.user",
+        "documentation": {}
+    },
+    {
+        "label": "root",
+        "kind": 2,
+        "importPath": "fastapi_server.main",
+        "description": "fastapi_server.main",
+        "peekOfCode": "def root():\n    return \"Hello World\"\norigins = [\n    'http://localhost:3000'\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=['*'],",
+        "detail": "fastapi_server.main",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "fastapi_server.main",
+        "description": "fastapi_server.main",
+        "peekOfCode": "app = FastAPI()\napp.include_router(user.router)\napp.include_router(post.router)\napp.include_router(authentication.router)\napp.include_router(comment.router)\n@app.get(\"\")\ndef root():\n    return \"Hello World\"\norigins = [\n    'http://localhost:3000'",
+        "detail": "fastapi_server.main",
+        "documentation": {}
+    },
+    {
+        "label": "origins",
+        "kind": 5,
+        "importPath": "fastapi_server.main",
+        "description": "fastapi_server.main",
+        "peekOfCode": "origins = [\n    'http://localhost:3000'\n]\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=origins,\n    allow_credentials=True,\n    allow_methods=['*'],\n    allow_headers=['*']\n)",
+        "detail": "fastapi_server.main",
         "documentation": {}
     },
     {
