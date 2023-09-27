@@ -1,7 +1,5 @@
 # Instagram-Clone-FastAPI
-Instagram-Style Web Application
-
-This project is a comprehensive full-stack development that builds an Instagram-like application. 
+A Instagram-Style Social Media Web Application
 
 ## Project Overview
 
@@ -19,15 +17,13 @@ This project is a comprehensive full-stack development that builds an Instagram-
 - [Technologies](#technologies)
 - [Getting Started](#getting-started)
 - [Features](#features)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Technologies
 
 - Backend:
-  - Database: 
-  - Backend Framework: 
-  - Authentication: 
+  - Database: SQLite 
+  - Backend Framework: Python FastAPI
+  - Authentication: Secure OAuth mechanisms
 - Web Client:
   - React.js
   - HTML
