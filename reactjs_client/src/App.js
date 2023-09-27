@@ -1,9 +1,9 @@
-import logo from "./logo.svg";
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import Post from "./Post";
 
 const BASE_URL = "http://localhost:8000/";
+
 
 function App() {
   const [posts, setPosts] = useState([]); // Define a state variable for posts
@@ -25,7 +25,18 @@ function App() {
       });
   }, []);
 
-  return "Hello World !";
+  return (
+    <div className="app_posts">
+    {
+      posts.map(post => (
+        <Post
+          post = {post}
+        />
+
+      ))
+    }
+  </div>
+  );
 }
 
 export default App;
