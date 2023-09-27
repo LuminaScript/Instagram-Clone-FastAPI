@@ -5,8 +5,11 @@ Make sure you have FastAPI installe.
 pip install fastapi
 
 ```
-
-Activate Virtual Enviorment
+Create a Virtual Enviornment
+```bash
+python3 -m venv myenv
+```
+Activate Virtual Enviornment
 ```bash
 source venv/bin/activate
 
